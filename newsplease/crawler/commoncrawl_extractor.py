@@ -10,7 +10,7 @@ import subprocess
 import sys
 import time
 import urllib
-from urllib.request import urlretrieve
+from urllib import urlretrieve
 
 from ago import human
 from dateutil import parser
